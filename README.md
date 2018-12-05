@@ -2,7 +2,7 @@
 <title>Postcard</title>
 
 <link rel="stylesheet" href="/css/postcard.css">
-
+<head>
 <style>
 p {
   color: red;
@@ -12,7 +12,7 @@ h1{
   
 }
 </style>
-
+</head>
 <h1>Post Card</h1>
 
 <section>
