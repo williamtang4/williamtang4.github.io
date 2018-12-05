@@ -1,4 +1,5 @@
 <!doctype html>
+<html>
 <title>Postcard</title>
 
 <link rel="stylesheet" href="/css/postcard.css">
@@ -13,6 +14,7 @@ h1{
 }
 </style>
 </head>
+<body>
 <h1>Post Card</h1>
 
 <section>
@@ -35,4 +37,6 @@ h1{
 </section>
 
 <a href="/">Powered by Code Avengers</a>
+</body>
+</html>
 
