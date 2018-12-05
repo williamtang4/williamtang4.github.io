@@ -2,7 +2,6 @@
 <html>
 <title>Postcard</title>
 
-<link rel="stylesheet" href="https://www.codeavengers.com/css/postcard.css">
 <head>
 <style>
 p {
@@ -12,6 +11,7 @@ h1{
   background-color: lavenderBlush;
   
 }
+<link rel="stylesheet" href="https://www.codeavengers.com/css/postcard.css">
 </style>
 </head>
 <body>
