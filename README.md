@@ -2,7 +2,7 @@
 <html>
 <title>Postcard</title>
 
-<link rel="stylesheet" href="/css/postcard.css">
+<link rel="stylesheet" href="https://www.codeavengers.com/css/postcard.css">
 <head>
 <style>
 p {
@@ -25,7 +25,7 @@ h1{
 </section>
 
 <section>
-<img width="80px" src="/images/postcard/stamp6.png">
+<img width="80px" src="https://www.codeavengers.com/images/postcard/stamp6.png">
 <h3>From:</h3>
 <p>Benny Benson
 <h3>Date:</h3>
