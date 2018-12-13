@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
+/* line 3, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+html {
+  background-color: #ccc;
+  margin: 0 auto;
+  width: 700px;
+}
+/* line 9, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+body {
+  background-color: #fff;
+  border: 30px solid rgba(0, 0, 0, 0);
+  border-bottom-width: 26px;
+  border-image: url(/images/postcard/border1.png) 150 round;
+  border-top-width: 26px;
+  box-shadow: -9px 10px 0px -2px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  margin: 160px 0 0;
+  min-height: 420px;
+  padding: 0;
+  position: relative;
+  width: 700px;
+  z-index: -2;
+}
+/* line 26, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+section:nth-of-type(2) {
+  border-right: 1px solid silver;
+  display: inline-block;
+  margin: 0;
+  padding: 30px 20px;
+  width: 328px;
+}
+/* line 34, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+section:first-of-type {
+  float: right;
+  margin-top: 150px;
+  padding: 20px;
+  width: 230px;
+}
+/* line 41, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+section:first-of-type p {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+/* line 48, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+img {
+  background-color: rgba(0, 0, 0, 0.1);
+  float: right;
+  height: 110px;
+  width: 80px;
+}
+/* line 55, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+h1 {
+  background-image: url(/images/postcard/stamp0.png);
+  background-position: 30px 270px;
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+  bottom: 0;
+  color: black;
+  font-family: Georgia, serif;
+  font-size: 60px;
+  line-height: 58px;
+  margin: 0;
+  padding-top: 32px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+  width: 270px;
+  z-index: -1;
+}
+/* line 76, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+h2 {
+  font-size: 22px;
+  margin: 0 0 10px 0;
+}
+/* line 81, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+h3 {
+  clear: left;
+  float: left;
+  font-size: 12px;
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+/* line 89, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+p {
+  float: left;
+  margin: 0 0 10px 20px;
+  width: 220px;
+}
+/* line 95, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+p:nth-child(n+6) {
+  clear: both;
+  margin: 0 0 10px 0;
+  width: 100%;
+}
+/* line 101, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+a {
+  position: absolute;
+  bottom: 0;
+  padding: 10px 0 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+  color: #bebebe;
+}
+/* line 111, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+a:hover {
+  color: dimGray;
+}
+@media screen and (max-width: 600px) {
+  /* line 121, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+  html {
+    width: initial;
+  }
+  /* line 125, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+  body {
+    border-width: 20px;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: none;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    position: initial;
+    width: 100%;
+  }
+  /* line 137, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+  section:first-of-type {
+    border-bottom: 1px solid silver;
+    display: inline-block;
+    float: none;
+    margin: 0;
+    padding: 30px 0;
+    width: 100%;
+  }
+  /* line 145, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+  section:first-of-type p {
+    margin: 0 0 0 120px;
+    width: 220px;
+  }
+  /* line 150, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+  section:nth-of-type(2) {
+    background-image: url(/images/postcard/stamp0.png);
+    background-position: 200px 20px;
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    border: none;
+    margin: 0;
+    padding: 30px 20px 50px;
+    width: initial;
+  }
+  /* line 161, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+  img {
+    height: 110px;
+    position: absolute;
+    left: 20px;
+    top: 206px;
+    width: 80px;
+  }
+  /* line 169, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+  h1 {
+    background-image: none;
+    border-bottom: 1px solid silver;
+    font-size: 40px;
+    margin: 0;
+    padding: 50px 0;
+    position: initial;
+    width: 100%;
+  }
+  /* line 179, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+  h2 {
+    margin: 0 0 10px 120px;
+    width: 220px;
+  }
+  /* line 184, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+  h3 {
+    clear: left;
+    float: left;
+    font-size: 12px;
+    margin: 0;
+    padding: 0 0 10px 0;
+  }
+  /* line 192, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+  p {
+    float: left;
+    margin: 0 0 10px 20px;
+    width: 280px;
+  }
+  /* line 198, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+  p:nth-child(n+6) {
+    clear: both;
+    margin: 0 0 10px 0;
+    width: 100%;
+  }
+  /* line 204, /Users/josh/Documents/workspace/CodeAvengers/src/main/webapp/less/postcard.less */
+  a {
+    display: block;
+    position: initial;
+    padding: 10px 0;
+  }
+}
+/*# sourceMappingURL=postcard.css.map */
