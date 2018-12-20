@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html {
+  background-image: url(light3a.png);
+  background-color: gray;
+}
+html {width: 320px;
+      margin-bottom: 0px;
+      margin-left: auto;
+      margin-top: 0px;
+      margin-right: auto;
+      font-size: 18px;
+      font-family: 'Comic Sans MS', cursive;
+}
+footer {text-align: center;}
+h1 {font-family: 'Lato', sans-serif;
+    width:300px;
+    background-color: orange;
+    text-shadow: 0 3px 0 gray;
+    text-align: center;
+}
+h2 {font-family: 'Lato', sans-serif;
+  background-color: orange;
+  text-align: center;
+}
+a {background-color: orange;}
+footer {font-family: 'Lato', sans-serif;
+        background-color: orange;
+}
+a:hover {color: blue;}
+
+img {border-style: dotted;
+    border-width: 1px;  
+    border-color:red;
+    border:1px dotted red;
+}
+ul {
+  list-style-image:url(/images/icons/icon1.png);
+}
