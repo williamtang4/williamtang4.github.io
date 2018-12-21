@@ -11,3 +11,6 @@ header {
 body {
   font: normal 20px Serif;
 }
+img {
+   border:1px dotted;
+}
